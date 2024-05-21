@@ -1,1 +1,1 @@
-zabiju se
+xd
