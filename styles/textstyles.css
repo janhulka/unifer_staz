@@ -38,14 +38,25 @@
     line-height: 24px;
 }
 
+.subheader{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 16px;
+    font-style: normal;
+}
+
+/* --barvicky-- */
+
 .grey{
-    color: #838FA0;
+    color: var(--grey50);
 }
 
 .light-grey{
-    color: #C0C7D2;
+    color: var(--grey30)
 }
 
-#swiper-heading, #swiper-subheading{
-    text-align: right;
+.green{
+    color: var(--green20);
+    background-color: var(--uniblack);
 }
