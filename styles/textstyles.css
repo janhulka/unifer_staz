@@ -54,6 +54,16 @@
     font-style: normal;
 }
 
+.timeline-number{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 63px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--unigreen);
+    margin: 0;
+}
+
 /* --barvicky-- */
 
 .grey{
@@ -67,4 +77,8 @@
 .green{
     color: var(--green20);
     background-color: rgb(0, 0, 0, 0);
+}
+
+.white{
+    color: white;
 }
