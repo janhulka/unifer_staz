@@ -98,7 +98,7 @@ body {
     position: absolute;
     background: radial-gradient(closest-side at 50% 70%, rgba(102,112,126,0.59) 0%, rgba(102,112,126,0) 90%);
     content: '';
-    bottom: 50%;
+    bottom: 70%;
     left: 0;
     width: 100%;
     height: 250%;
@@ -151,7 +151,7 @@ body {
     align-items: center;
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     gap: 30px;
 }
 
@@ -681,13 +681,18 @@ body {
     text-align: right;
 }
 
-.quiz-swiper {
+.quiz-swiper{
     position: relative;
-    width: 870px;
-    height: 220px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    overflow: hidden;
+    width: 890px;
     z-index: 1;
+}
+
+.quiz-swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    height: 100%;
 }
 
 .quiz-swiper::after{
@@ -709,26 +714,24 @@ body {
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    padding-left: 20px;
-    padding-top: 10px;
-    height: 210px;
+    padding: 20px;
+    height: 100%;
+    width: 245px;
+    margin-bottom: 1px;
+    margin-top: 1px;
     border: 1px solid;
     border-color: var(--grey60);
     border-radius: 4px;
 }
 
-.quiz-swiper-slide-empty {
-    border: none;
-}
-
-.swiper-textblock-heading, .swiper-textblock-body{
-    text-align: left;
+.swiper-texblock-heading{
+    margin-top: 0px;
 }
 
 .swiper-confirmation{
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: auto;
     gap: 6px;
 }
 
@@ -748,7 +751,7 @@ body {
 
 .congratulation-ilustration{
     flex: 0 0 550px;
-    padding-top: 100px;
+    padding-top: 181px;
     padding-right: 0px;
 }
 
@@ -757,7 +760,6 @@ body {
     margin: 0px;
     padding-right: 152px;
     padding-left: 152px;
-    padding-top: 80px;
 }
 
 .congratulation-textblock{
